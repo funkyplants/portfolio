@@ -28,7 +28,7 @@
         towards the sky for answers, which unintentally became the chosen
         background for the poster.
       </p>
-      <img class="project-img" src="src/assets/images/Poster3.png" alt="" />
+      <img class="project-img" src="../assets/images/Poster3.png" alt="" />
     </section>
   </main>
 </template>

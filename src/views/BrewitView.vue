@@ -21,7 +21,7 @@
         create a playful, but sophisticated layout that captivates the user with
         a welcoming hero section.
       </p>
-      <img class="project-img" src="@/assets/images/just-brew-it.png" alt="" />
+      <img class="project-img" src="../assets/images/just-brew-it.png" alt="" />
     </section>
   </main>
 </template>

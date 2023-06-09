@@ -27,20 +27,20 @@
     :enter="{ opacity: 1, y: 0, transition: { duration: 1000 } }"
     :delay="300"
   >
-    <img src="src/assets/images/tulips.png" alt="tulips illustration" />
+    <img src="../assets/images/tulips.png" alt="tulips illustration" />
     <img
-      src="src/assets/images/ghosts.png"
+      src="../assets/images/ghosts.png"
       alt="figure with blonde hair and green vest with ghosts and glitter around it"
     />
-    <img src="src/assets/images/sketches.png" alt="sketches illustration" />
+    <img src="../assets/images/sketches.png" alt="sketches illustration" />
 
     <img
-      src="src/assets/images/MeekosHouse.png"
+      src="../assets/images/MeekosHouse.png"
       alt="meeko's house illustration"
     />
-    <img src="src/assets/images/lenny.png" alt="plants" />
+    <img src="../assets/images/lenny.png" alt="plants" />
     <img
-      src="src/assets/images/me-and-things.png"
+      src="../assets/images/me-and-things.png"
       alt="meeko's house illustration"
     />
   </div>

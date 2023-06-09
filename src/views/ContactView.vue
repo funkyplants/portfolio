@@ -42,7 +42,7 @@
       </ul>
     </div>
     <div class="floral-img">
-      <img src="src/assets/images/floral.png" alt="" />
+      <img src="../assets/images/floral.png" alt="" />
     </div>
   </div>
 </template>

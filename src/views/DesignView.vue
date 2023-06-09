@@ -23,8 +23,8 @@ export default {
       <div class="project-item">
         <div class="image-container">
           <RouterLink to="/mono">
-            <img src="src/assets/images/mono-purple.png" alt="" />
-            <img src="src/assets/images/mono-yellow.png" alt="" />
+            <img src="../assets/images/mono-purple.png" alt="" />
+            <img src="../assets/images/mono-yellow.png" alt="" />
           </RouterLink>
           <h2>Mono Application</h2>
           <p class="caption">UX/UI Design / February 2023</p>
@@ -39,7 +39,7 @@ export default {
         <!-- BREW IT  -->
         <div class="image-container2">
           <RouterLink to="/brewit-design">
-            <img src="src/assets/images/brew-it.png" alt="" />
+            <img src="../assets/images/brew-it.png" alt="" />
           </RouterLink>
           <h2>Brew It Landing Page</h2>
           <p class="caption">Web Design / April 2023</p>
@@ -69,7 +69,7 @@ export default {
       <div class="project-item">
         <div class="image-container2">
           <RouterLink to="/lucidity-design">
-            <img src="src/assets/images/Poster3.png" alt="" />
+            <img src="../assets/images/Poster3.png" alt="" />
           </RouterLink>
           <h2>Lucidity Poster Design</h2>
           <p class="caption">Product Design / April 2023</p>
