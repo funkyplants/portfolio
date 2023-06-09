@@ -39,9 +39,7 @@ export default {
         <!-- BREW IT  -->
         <div class="image-container2">
           <RouterLink to="/brewit-design">
-            <img :src="flaskDesignImage" alt="" />
-
-            <!-- <img src="src/assets/images/just-brew-it.png" alt="" /> -->
+            <img src="src/assets/images/brew-it.png" alt="" />
           </RouterLink>
           <h2>Brew It Landing Page</h2>
           <p class="caption">Web Design / April 2023</p>
@@ -56,7 +54,7 @@ export default {
       <div class="project-item">
         <div class="image-container2">
           <RouterLink to="/hydrated-design">
-            <img src="src/assets/images/flask-design.jpg" alt="" />
+            <img :src="flaskDesignImage" alt="" />
           </RouterLink>
           <h2>Hydrate'd Bottle Design</h2>
           <p class="caption">Product Design / April 2023</p>

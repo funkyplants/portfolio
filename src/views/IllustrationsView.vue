@@ -81,7 +81,7 @@ export default {
 
 <style scoped>
 .content-main {
-  margin: 0px;
+  margin: 0 auto;
 }
 .grid {
   display: flex;

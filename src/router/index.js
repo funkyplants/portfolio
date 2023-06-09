@@ -6,7 +6,7 @@ import ContactView from "../views/ContactView.vue";
 import MonoView from "../views/MonoView.vue";
 import HydratedView from "../views/HydratedView.vue";
 import LucidityView from "../views/LucidityView.vue";
-import BrewitView from "../views/LucidityView.vue";
+import BrewitView from "../views/BrewitView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
