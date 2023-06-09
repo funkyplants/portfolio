@@ -36,8 +36,8 @@
         elements; all to fit with the aesthetic brand. ​​​​​​​
       </p>
       <div class="comparison-container">
-        <img src="../assets/images/old_landing_pg.png" alt="" />
-        <img src="../assets/images/ipad_landing.png" alt="" />
+        <img src="/src/assets/img/mono/old_landing_pg.png" alt="" />
+        <img src="/src/assets/img/mono/ipad_landing.png" alt="" />
       </div>
       <div class="caption-container">
         <p class="caption">Comparison of old (left) version and new (right).</p>
@@ -61,12 +61,12 @@
       </p>
 
       <div class="comparison-container">
-        <img src="../assets/images/old_footer.png" alt="" />
-        <img src="../assets/images/ipad_footer.png" alt="" />
+        <img src="/src/assets/img/mono/old_footer.png" alt="" />
+        <img src="/src/assets/img/mono/ipad_footer.png" alt="" />
       </div>
       <div class="comparison-container">
-        <img src="../assets/images/old_mone.png" alt="" />
-        <img src="../assets/images/ipad_details.png" alt="" />
+        <img src="/src/assets/img/mono/old_mone.png" alt="" />
+        <img src="/src/assets/img/mono/ipad_details.png" alt="" />
       </div>
       <div class="caption-container">
         <p class="caption">Comparison of old (left) version and new (right).</p>
@@ -90,11 +90,11 @@
           small interactive element that the user would find pleasant.
         </p>
         <div class="comparison-container">
-          <img src="../assets/images/nighttime.png" alt="" />
-          <img src="../assets/images/daytime.png" alt="" />
+          <img src="/src/assets/img/mono/nighttime.png" alt="" />
+          <img src="/src/assets/img/mono/daytime.png" alt="" />
         </div>
         <div class="desktop-long">
-          <img src="../assets/images/wide_desktop.png" alt="" />
+          <img src="/src/assets/img/mono//wide_desktop.png" alt="" />
         </div>
         <p class="figma-link">
           <a

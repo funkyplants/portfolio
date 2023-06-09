@@ -18,7 +18,7 @@
     <div class="content">
       <div class="content-items">
         <div class="image">
-          <img src="../assets/images/profile.png" alt="profile-img" />
+          <img src="/src/assets/img/profile.png" alt="profile-img" />
         </div>
         <div class="description">
           <div class="text-container">

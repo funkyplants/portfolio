@@ -29,7 +29,7 @@
         this bottle is the perfect way to express your personal style and keep
         yourself hydrated at the same time.
       </p>
-      <img src="../assets/images/flask-design.jpg" alt="" class="project-img" />
+      <img src="/src/assets/img/flask-design.jpg" alt="" class="project-img" />
     </section>
   </main>
 </template>
