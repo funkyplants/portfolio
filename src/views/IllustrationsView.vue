@@ -38,7 +38,7 @@
       src="/src/assets/img/MeekosHouse.png"
       alt="meeko's house illustration"
     />
-    <img src="/src/assets/img/images/lenny.png" alt="plants" />
+    <img src="/src/assets/img/lenny.png" alt="lenny" />
     <img
       src="/src/assets/img/me-and-things.png"
       alt="meeko's house illustration"
