@@ -1,15 +1,3 @@
-<script>
-import flaskDesignImage from "@/assets/images/flask-design.jpg";
-
-export default {
-  data() {
-    return {
-      flaskDesignImage: flaskDesignImage,
-    };
-  },
-};
-</script>
-
 <template>
   <main>
     <!-- MONO  -->
@@ -54,7 +42,7 @@ export default {
       <div class="project-item">
         <div class="image-container2">
           <RouterLink to="/hydrated-design">
-            <img :src="flaskDesignImage" alt="" />
+            <img src="../assets/images/flask-design.jpg" alt="" />
           </RouterLink>
           <h2>Hydrate'd Bottle Design</h2>
           <p class="caption">Product Design / April 2023</p>
