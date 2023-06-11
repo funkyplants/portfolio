@@ -1,3 +1,6 @@
+<script setup>
+import floralUrl from "/src/assets/img/floral.png";
+</script>
 <template>
   <!-- <div class="contact"> -->
   <div
@@ -42,7 +45,9 @@
       </ul>
     </div>
     <div class="floral-img">
-      <img src="/src/assets/img/floral.png" alt="" />
+      <img class="project-img" :src="floralUrl" alt="" />
+
+      <!-- <img src="/src/assets/img/floral.png" alt="" /> -->
     </div>
   </div>
 </template>

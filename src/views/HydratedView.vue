@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
+</script>
 
 <template>
   <main
@@ -29,7 +31,7 @@
         this bottle is the perfect way to express your personal style and keep
         yourself hydrated at the same time.
       </p>
-      <img src="/src/assets/img/flask-design.jpg" alt="" class="project-img" />
+      <img class="project-img" :src="hydratedPosterUrl" alt="" />
     </section>
   </main>
 </template>

@@ -1,3 +1,9 @@
+<script setup>
+import monoLandingUrl from "/src/assets/img/mono/mono-purple.png";
+import monoFooterUrl from "/src/assets/img/mono/mono-yellow.png";
+import justBrewItUrl from "/src/assets/img/just-brew-it.png";
+import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
+</script>
 <template>
   <main>
     <!-- MONO  -->
@@ -11,8 +17,8 @@
       <div class="project-item">
         <div class="image-container">
           <RouterLink to="/mono">
-            <img src="/src/assets/img/mono/mono-purple.png" alt="" />
-            <img src="/src/assets/img/mono/mono-yellow.png" alt="" />
+            <img class="project-img" :src="monoLandingUrl" alt="" />
+            <img class="project-img" :src="monoFooterUrl" alt="" />
           </RouterLink>
           <h2>Mono Application</h2>
           <p class="caption">UX/UI Design / February 2023</p>
@@ -27,7 +33,7 @@
         <!-- BREW IT  -->
         <div class="image-container2">
           <RouterLink to="/brewit-design">
-            <img src="/src/assets/img/just-brew-it.png" alt="" />
+            <img class="project-img" :src="justBrewItUrl" alt="" />
           </RouterLink>
           <h2>Brew It Landing Page</h2>
           <p class="caption">Web Design / April 2023</p>
@@ -42,7 +48,7 @@
       <div class="project-item">
         <div class="image-container2">
           <RouterLink to="/hydrated-design">
-            <img src="/src/assets/img/flask-design.jpg" alt="" />
+            <img class="project-img" :src="hydratedPosterUrl" alt="" />
           </RouterLink>
           <h2>Hydrate'd Bottle Design</h2>
           <p class="caption">Product Design / April 2023</p>

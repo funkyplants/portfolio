@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import justBrewItUrl from "/src/assets/img/just-brew-it.png";
+</script>
 <template>
   <main
     v-motion
@@ -21,7 +23,7 @@
         create a playful, but sophisticated layout that captivates the user with
         a welcoming hero section.
       </p>
-      <img class="project-img" src="/src/assets/img/just-brew-it.png" alt="" />
+      <img class="project-img" :src="justBrewItUrl" alt="" />
     </section>
   </main>
 </template>

@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import lucidityUrl from "/src/assets/img/Poster3.png";
+</script>
 
 <template>
   <main
@@ -28,7 +30,10 @@
         towards the sky for answers, which unintentally became the chosen
         background for the poster.
       </p>
-      <img class="project-img" src="/src/assets/img/Poster3.png" alt="" />
+      <img
+        :src="lucidityUrl"
+        alt="Poster on the floor of a blue sky with some clouds in the background and glass-3D typography saying Lucidity in the front"
+      />
     </section>
   </main>
 </template>

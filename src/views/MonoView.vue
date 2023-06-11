@@ -1,4 +1,14 @@
-<script setup></script>
+<script setup>
+import monoLandingPgUrl from "/src/assets/img/mono/ipad_landing.png";
+import monoFooterPgUrl from "/src/assets/img/mono/ipad_footer.png";
+import monoOldLandingUrl from "/src/assets/img/mono/old_landing_pg.png";
+import monoOldFooterUrl from "/src/assets/img/mono/old_footer.png";
+import monoOldDetailsUrl from "/src/assets/img/mono/old_mone.png";
+import monoNewDetailsUrl from "/src/assets/img/mono/ipad_details.png";
+import desktopNightUrl from "/src/assets/img/mono/nighttime.png";
+import desktopDayUrl from "/src/assets/img/mono/daytime.png";
+import desktopLongUrl from "/src/assets/img/mono/wide_desktop.png";
+</script>
 <template>
   <main
     v-motion
@@ -36,8 +46,8 @@
         elements; all to fit with the aesthetic brand. ​​​​​​​
       </p>
       <div class="comparison-container">
-        <img src="/src/assets/img/mono/old_landing_pg.png" alt="" />
-        <img src="/src/assets/img/mono/ipad_landing.png" alt="" />
+        <img :src="monoOldLandingUrl" alt="" />
+        <img :src="monoLandingPgUrl" alt="" />
       </div>
       <div class="caption-container">
         <p class="caption">Comparison of old (left) version and new (right).</p>
@@ -61,12 +71,12 @@
       </p>
 
       <div class="comparison-container">
-        <img src="/src/assets/img/mono/old_footer.png" alt="" />
-        <img src="/src/assets/img/mono/ipad_footer.png" alt="" />
+        <img :src="monoOldFooterUrl" alt="" />
+        <img :src="monoFooterPgUrl" alt="" />
       </div>
       <div class="comparison-container">
-        <img src="/src/assets/img/mono/old_mone.png" alt="" />
-        <img src="/src/assets/img/mono/ipad_details.png" alt="" />
+        <img :src="monoOldDetailsUrl" alt="" />
+        <img :src="monoNewDetailsUrl" alt="" />
       </div>
       <div class="caption-container">
         <p class="caption">Comparison of old (left) version and new (right).</p>
@@ -90,11 +100,11 @@
           small interactive element that the user would find pleasant.
         </p>
         <div class="comparison-container">
-          <img src="/src/assets/img/mono/nighttime.png" alt="" />
-          <img src="/src/assets/img/mono/daytime.png" alt="" />
+          <img :src="desktopNightUrl" alt="" />
+          <img :src="desktopDayUrl" alt="" />
         </div>
         <div class="desktop-long">
-          <img src="/src/assets/img/mono//wide_desktop.png" alt="" />
+          <img :src="desktopLongUrl" alt="" />
         </div>
         <p class="figma-link">
           <a

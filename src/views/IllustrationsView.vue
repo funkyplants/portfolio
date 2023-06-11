@@ -1,3 +1,12 @@
+<script setup>
+import tulipsUrl from "/src/assets/img/tulips.png";
+import ghostsUrl from "/src/assets/img/ghosts.png";
+import sketchesUrl from "/src/assets/img/sketches.png";
+import meekosUrl from "/src/assets/img/MeekosHouse.png";
+import plantUrl from "/src/assets/img/lenny.png";
+import beigeUrl from "/src/assets/img/me-and-things.png";
+</script>
+
 <template>
   <main
     v-motion
@@ -27,21 +36,32 @@
     :enter="{ opacity: 1, y: 0, transition: { duration: 1000 } }"
     :delay="300"
   >
-    <img src="/src/assets/img/tulips.png" alt="tulips illustration" />
     <img
-      src="/src/assets/img/ghosts.png"
-      alt="figure with blonde hair and green vest with ghosts and glitter around it"
+      :src="tulipsUrl"
+      alt="black background with a pink vase with blue, yellow and red tulips who are glimmering."
     />
-    <img src="/src/assets/img/sketches.png" alt="sketches illustration" />
 
     <img
-      src="/src/assets/img/MeekosHouse.png"
-      alt="meeko's house illustration"
+      :src="ghostsUrl"
+      alt="cute illustration of a person with blonde hair and green heart-printed vest with ghosts and glitter around them"
     />
-    <img src="/src/assets/img/lenny.png" alt="lenny" />
+
     <img
-      src="/src/assets/img/me-and-things.png"
-      alt="meeko's house illustration"
+      :src="sketchesUrl"
+      alt="sketch-style of bees, flowers, fishes and a larvae-shaped figure. "
+    />
+
+    <img
+      :src="meekosUrl"
+      alt="a red-headed person with a house on top of their head with the print saying meekos house on it. "
+    />
+    <img
+      :src="plantUrl"
+      alt="a person with blonde hair and purple transparent blouse over black clothes and boots, surrounded by plants who is holding plants"
+    />
+    <img
+      :src="beigeUrl"
+      alt="beige illustration of a person sitting in middle surrounded by things"
     />
   </div>
   <div id="lightbox">
