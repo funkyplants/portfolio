@@ -18,7 +18,7 @@
         <p>
           A re-model of an imaginary brand I made in 2021. I wanted to showcase
           my development for the past years in terms of UX and UI design — as
-          well as incorportating a bit more of my personal style.
+          well as incorporating a bit more of my personal style.
         </p>
       </div>
       <h2>About brand</h2>
