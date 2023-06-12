@@ -1,14 +1,4 @@
-<script setup>
-import monoLandingPgUrl from "/src/assets/img/mono/ipad_landing.png";
-import monoFooterPgUrl from "/src/assets/img/mono/ipad_footer.png";
-import monoOldLandingUrl from "/src/assets/img/mono/old_landing_pg.png";
-import monoOldFooterUrl from "/src/assets/img/mono/old_footer.png";
-import monoOldDetailsUrl from "/src/assets/img/mono/old_mone.png";
-import monoNewDetailsUrl from "/src/assets/img/mono/ipad_details.png";
-import desktopNightUrl from "/src/assets/img/mono/nighttime.png";
-import desktopDayUrl from "/src/assets/img/mono/daytime.png";
-import desktopLongUrl from "/src/assets/img/mono/wide_desktop.png";
-</script>
+<script setup></script>
 <template>
   <main
     v-motion
@@ -46,8 +36,8 @@ import desktopLongUrl from "/src/assets/img/mono/wide_desktop.png";
         elements; all to fit with the aesthetic brand. ​​​​​​​
       </p>
       <div class="comparison-container">
-        <img :src="monoOldLandingUrl" alt="" />
-        <img :src="monoLandingPgUrl" alt="" />
+        <img src="@/assets/img/mono/old-landing.png" alt="" />
+        <img src="@/assets/img/mono/landing.png" alt="" />
       </div>
       <div class="caption-container">
         <p class="caption">Comparison of old (left) version and new (right).</p>
@@ -71,12 +61,12 @@ import desktopLongUrl from "/src/assets/img/mono/wide_desktop.png";
       </p>
 
       <div class="comparison-container">
-        <img :src="monoOldFooterUrl" alt="" />
-        <img :src="monoFooterPgUrl" alt="" />
+        <img src="@/assets/img/mono/old-footer.png" alt="" />
+        <img src="@/assets/img/mono/footer.png" alt="" />
       </div>
       <div class="comparison-container">
-        <img :src="monoOldDetailsUrl" alt="" />
-        <img :src="monoNewDetailsUrl" alt="" />
+        <img src="@/assets/img/mono/old-mone.png" alt="" />
+        <img src="@/assets/img/mono/vibe.png" alt="" />
       </div>
       <div class="caption-container">
         <p class="caption">Comparison of old (left) version and new (right).</p>
@@ -100,11 +90,11 @@ import desktopLongUrl from "/src/assets/img/mono/wide_desktop.png";
           small interactive element that the user would find pleasant.
         </p>
         <div class="comparison-container">
-          <img :src="desktopNightUrl" alt="" />
-          <img :src="desktopDayUrl" alt="" />
+          <img src="@/assets/img/mono/night.png" alt="" />
+          <img src="@/assets/img/mono/day.png" alt="" />
         </div>
         <div class="desktop-long">
-          <img :src="desktopLongUrl" alt="" />
+          <img src="@/assets/img/mono/desktop.png" alt="" />
         </div>
         <p class="figma-link">
           <a

@@ -1,9 +1,3 @@
-<script setup>
-import monoLandingUrl from "/src/assets/img/mono/mono-purple.png";
-import monoFooterUrl from "/src/assets/img/mono/mono-yellow.png";
-import justBrewItUrl from "/src/assets/img/just-brew-it.png";
-import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
-</script>
 <template>
   <main>
     <!-- MONO  -->
@@ -17,8 +11,8 @@ import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
       <div class="project-item">
         <div class="image-container">
           <RouterLink to="/mono">
-            <img class="project-img" :src="monoLandingUrl" alt="" />
-            <img class="project-img" :src="monoFooterUrl" alt="" />
+            <img src="@/assets/img/mono/mono-purple.png" alt="" />
+            <img src="@/assets/img/mono/mono-yellow.png" alt="" />
           </RouterLink>
           <h2>Mono Application</h2>
           <p class="caption">UX/UI Design / February 2023</p>
@@ -33,7 +27,7 @@ import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
         <!-- BREW IT  -->
         <div class="image-container2">
           <RouterLink to="/brewit-design">
-            <img class="project-img" :src="justBrewItUrl" alt="" />
+            <img src="@/assets/img/just-brew-it.png" alt="" />
           </RouterLink>
           <h2>Brew It Landing Page</h2>
           <p class="caption">Web Design / April 2023</p>
@@ -48,7 +42,7 @@ import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
       <div class="project-item">
         <div class="image-container2">
           <RouterLink to="/hydrated-design">
-            <img class="project-img" :src="hydratedPosterUrl" alt="" />
+            <img src="@/assets/img/flask-design.jpg" alt="" />
           </RouterLink>
           <h2>Hydrate'd Bottle Design</h2>
           <p class="caption">Product Design / April 2023</p>
@@ -63,7 +57,7 @@ import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
       <div class="project-item">
         <div class="image-container2">
           <RouterLink to="/lucidity-design">
-            <img src="/src/assets/img/Poster3.png" alt="" />
+            <img src="@/assets/img/Poster3.png" alt="" />
           </RouterLink>
           <h2>Lucidity Poster Design</h2>
           <p class="caption">Product Design / April 2023</p>

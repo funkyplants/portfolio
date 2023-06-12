@@ -1,6 +1,4 @@
-<script setup>
-import lucidityUrl from "/src/assets/img/Poster3.png";
-</script>
+<script setup></script>
 
 <template>
   <main
@@ -31,8 +29,11 @@ import lucidityUrl from "/src/assets/img/Poster3.png";
         background for the poster.
       </p>
       <img
-        :src="lucidityUrl"
-        alt="Poster on the floor of a blue sky with some clouds in the background and glass-3D typography saying Lucidity in the front"
+        class="project-img"
+        src="@/assets/img/Poster3.png"
+        alt="Poster on
+      the floor of a blue sky with some clouds in the background and glass-3D
+      typography saying Lucidity on the front"
       />
     </section>
   </main>

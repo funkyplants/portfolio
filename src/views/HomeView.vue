@@ -5,7 +5,6 @@
 //     required: true,
 //   },
 // });
-import profileUrl from "/src/assets/img/profile.png";
 </script>
 
 <template>
@@ -19,7 +18,7 @@ import profileUrl from "/src/assets/img/profile.png";
     <div class="content">
       <div class="content-items">
         <div class="image">
-          <img :src="profileUrl" alt="" />
+          <img src="@/assets/img/profile.png" alt="profile" />
         </div>
         <div class="description">
           <div class="text-container">

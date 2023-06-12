@@ -8,9 +8,4 @@ export default defineConfig({
       "@": "/src",
     },
   },
-  build: {
-    rollupOptions: {
-      external: [/\.css$/, /\.(png|jpe?g|gif|svg|webp)$/i],
-    },
-  },
 });

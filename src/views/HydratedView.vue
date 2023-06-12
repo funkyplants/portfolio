@@ -1,7 +1,3 @@
-<script setup>
-import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
-</script>
-
 <template>
   <main
     v-motion
@@ -31,7 +27,7 @@ import hydratedPosterUrl from "/src/assets/img/flask-design.jpg";
         this bottle is the perfect way to express your personal style and keep
         yourself hydrated at the same time.
       </p>
-      <img class="project-img" :src="hydratedPosterUrl" alt="" />
+      <img src="@/assets/img/flask-design.jpg" alt="" class="project-img" />
     </section>
   </main>
 </template>
