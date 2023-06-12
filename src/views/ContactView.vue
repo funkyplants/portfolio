@@ -20,14 +20,14 @@
         target="_blank"
         ><b> esiestudio</b></a
       >
-      on ig. On my
+      on ig. Visit my
       <a
-        href="https://github.com/funkyplants"
+        href="https://github.com/funkyplants/portfolio"
         class="circle-link"
         target="_blank"
         ><b>Github</b></a
       >
-      you can find my code for this Vue.js site. Have a good day!! :-)
+      for more code details. Have a good day!! :-)
     </p>
 
     <div class="skills-table">
@@ -106,11 +106,13 @@ export default {
     margin: 0 auto;
     max-width: 90%;
   }
-  .text-flex {
-    flex-direction: column;
+
+  .skills-table li {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    margin: 0;
   }
 }
-
 @media (min-width: 530px) {
   .floral-img img {
     max-width: 100%;

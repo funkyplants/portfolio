@@ -7,7 +7,11 @@
   >
     <div class="content-main">
       <h1>Illustrations</h1>
-      <p>Materials I use: iPad Pro, Apple Pencil gen 3, Procreate</p>
+      <p>
+        <span class="bold">Materials:</span> iPad Pro, Apple Pencil gen 3,
+        Procreate
+      </p>
+
       <p class="ig-link">
         For more illustrations, follow
         <a
@@ -90,7 +94,10 @@ export default {
 
 <style scoped>
 .content-main {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
 }
 .grid {
   display: flex;
@@ -100,7 +107,7 @@ export default {
 }
 .grid img {
   margin: 10px;
-  max-width: 30%;
+  max-width: 25%;
   height: auto;
   cursor: pointer;
 }
@@ -136,6 +143,9 @@ export default {
   cursor: pointer;
 }
 
+.bold {
+  font-weight: 700;
+}
 /* media queries */
 @media screen and (min-width: 320px) and (max-width: 780px) {
   .ig-link {
@@ -146,7 +156,7 @@ export default {
     align-items: center;
   }
   .grid img {
-    max-width: 50%;
+    max-width: 80%;
   }
 }
 </style>

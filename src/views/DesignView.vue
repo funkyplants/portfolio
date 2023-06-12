@@ -130,7 +130,7 @@ img {
 }
 @media (min-width: 500px) {
   .image-container {
-    max-width: 60%;
+    max-width: 80%;
   }
   .image-container2 {
     max-width: 80%;
@@ -138,10 +138,18 @@ img {
 }
 @media (min-width: 780px) {
   .image-container {
-    max-width: 40%;
+    max-width: 80%;
   }
   .image-container2 {
-    max-width: 40%;
+    max-width: 80%;
+  }
+}
+@media (min-width: 900px) {
+  .image-container {
+    max-width: 60%;
+  }
+  .image-container2 {
+    max-width: 60%;
   }
 }
 </style>

@@ -24,15 +24,15 @@ import logo from "./components/icons/LogoName.vue";
       <nav v-if="!isMobile || isMenuOpen" :class="{ active: isMenuOpen }">
         <ul>
           <li>
-            <RouterLink to="/design" @click="closeMenu"> ✳ Design</RouterLink>
+            <RouterLink to="/design" @click="closeMenu"> Design</RouterLink>
           </li>
           <li>
             <RouterLink to="/illustrations" @click="closeMenu">
-              ✳ Illustrations</RouterLink
+              Illustrations</RouterLink
             >
           </li>
           <li>
-            <RouterLink to="/contact" @click="closeMenu"> ✳ Contact</RouterLink>
+            <RouterLink to="/contact" @click="closeMenu"> Contact</RouterLink>
           </li>
         </ul>
       </nav>
@@ -93,13 +93,14 @@ header {
 /* X button etc. */
 .hamburger {
   position: fixed;
+  padding: 10px;
   z-index: 10000;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 50px;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -155,13 +156,13 @@ nav.active {
 
 @media (max-width: 500px) {
   nav {
-    padding: 30px 0;
+    padding: 50px 0;
     display: flex;
     position: fixed;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
-    height: 30vh;
+    width: 100%;
+    height: 22vh;
     font-size: 22px;
     font-weight: 400;
     text-align: left;
