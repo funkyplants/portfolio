@@ -143,6 +143,14 @@ export default {
   cursor: pointer;
 }
 
+p {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 2em;
+  text-overflow: ellipsis;
+  width: 90%;
+  margin-bottom: 10px;
+}
 .bold {
   font-weight: 700;
 }

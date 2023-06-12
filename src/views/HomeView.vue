@@ -159,7 +159,7 @@
 @media screen and (min-width: 320px) and (max-width: 400px) {
   .content-items {
     display: block;
-    padding: 10px;
+    padding: 25px;
     max-width: 100%;
   }
   .description {
