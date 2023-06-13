@@ -75,7 +75,7 @@
 }
 
 .image {
-  flex-basis: 300px;
+  flex-basis: 350px;
   height: auto;
   overflow: hidden;
   display: flex;
@@ -83,7 +83,7 @@
 }
 
 .image img {
-  max-width: 90%;
+  max-width: 85%;
   border-radius: 100%;
 }
 

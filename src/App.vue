@@ -156,13 +156,13 @@ nav.active {
 
 @media (max-width: 500px) {
   nav {
-    padding: 50px 0;
+    padding: 50px 50px;
     display: flex;
     position: static;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 22vh;
+    height: 25vh;
     font-size: 22px;
     font-weight: 400;
     text-align: left;
@@ -174,15 +174,12 @@ nav.active {
   }
   nav ul li {
     list-style-type: none;
-    padding: 10px;
+    padding: 2px;
     margin: 0;
   }
   nav ul li a {
     color: white;
     font-weight: 700;
-  }
-
-  nav ul li a {
     text-decoration: none;
     position: relative;
   }
@@ -237,21 +234,21 @@ nav.active {
 
   nav ul li a::before {
     content: "";
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 0;
     height: 0;
-    box-shadow: 0 0 0 2px #6d6d6d;
+    box-shadow: 0 0 0 1px #1b1b1b;
     border-radius: 100%;
     opacity: 0;
     transition: all 0.3s ease;
   }
 
   nav ul li a:hover::before {
-    width: 90%;
-    height: 140%;
+    width: 120%;
+    height: 100%;
     opacity: 1;
   }
 

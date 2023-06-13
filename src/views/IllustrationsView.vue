@@ -107,9 +107,11 @@ export default {
 }
 .grid img {
   margin: 10px;
-  max-width: 25%;
+  max-width: 30%;
   height: auto;
   cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 #lightbox {

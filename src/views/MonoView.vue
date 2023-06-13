@@ -234,6 +234,19 @@ h1 {
     align-items: center;
     margin-bottom: 30px;
   }
+  .caption {
+    margin-top: 50px;
+  }
+  h2 {
+    margin-top: 40px;
+  }
+  .figma-link {
+    margin-top: 50px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
 }
 /* browser-specific CSS */
 @supports not (-webkit-touch-callout: none) {
