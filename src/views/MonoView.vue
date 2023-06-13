@@ -112,7 +112,10 @@
 <style scoped>
 h1 {
   text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5px;
 }
+
 .content-box {
   padding: 0 30px;
 }
@@ -120,6 +123,11 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.project-description {
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .image-wrapper img {
@@ -142,14 +150,15 @@ h1 {
 .comparison-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
   gap: 1rem;
   margin-bottom: 30px;
 }
 
 .comparison-container img {
-  max-width: 80%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 .desktop-long img {
@@ -172,6 +181,10 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 1vh;
+}
+
+.caption {
+  font-size: 16px;
 }
 .figma-link {
   margin-top: 2rem;
@@ -210,13 +223,22 @@ h1 {
 .desktop-long {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 10px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .comparison-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}
 /* browser-specific CSS */
 @supports not (-webkit-touch-callout: none) {
   .comparison-container img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
   }
 }

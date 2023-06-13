@@ -92,7 +92,7 @@ header {
 
 /* X button etc. */
 .hamburger {
-  position: fixed;
+  position: static;
   padding: 10px;
   z-index: 10000;
   display: flex;
@@ -158,7 +158,7 @@ nav.active {
   nav {
     padding: 50px 0;
     display: flex;
-    position: fixed;
+    position: static;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -189,7 +189,7 @@ nav.active {
 
   nav ul li a::before {
     content: "";
-    position: absolute;
+    position: static;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -237,7 +237,7 @@ nav.active {
 
   nav ul li a::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
